@@ -8,15 +8,13 @@ export const CounterComponentStyle = styled("div")<CounterComponentStyleProps>(
   ({ theme }: any) => {
     const bdTheme = theme as BDTheme;
     return {
-      width: "15%",
-
+      width: "100%",
       ".container": {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         padding: "3px",
         gap: 10,
-        backgroundColor: bdTheme.colors.purple,
         color: "white",
       },
     };

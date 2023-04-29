@@ -32,16 +32,16 @@ export const CounterComponent: React.FC<CounterComponentProps> = ({
           <label>{title}: </label>
         </Box>
         <Box className="decreasement-container">
-          <Button color="secondary" variant="outlined" onClick={decreaseCount}>
-            -
+          <Button color="secondary" variant="outlined" onClick={increaseCount}>
+            +
           </Button>
         </Box>
         <Box className="count-show-container">
           <Typography>{count}</Typography>
         </Box>
         <Box className="increasement-container">
-          <Button color="secondary" variant="outlined" onClick={increaseCount}>
-            +
+          <Button color="secondary" variant="outlined" onClick={decreaseCount}>
+            -
           </Button>
         </Box>
       </Box>

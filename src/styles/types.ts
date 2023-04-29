@@ -21,6 +21,8 @@ export type ImageURLs = {
 export type LogoSize = {
   primaryWidth: string;
   primaryHeight: string;
+  primaryCarouselWidth: string;
+  primaryCarouselHeight: string;
 };
 
 export interface BDTheme extends Theme, ThemeColors, ImageURLs, LogoSize {}
