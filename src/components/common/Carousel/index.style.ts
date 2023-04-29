@@ -9,9 +9,6 @@ export const CarouselComponentStyle = styled(
 )<CarouselComponentStyleProps>(({ theme }: any) => {
   const bdTheme = theme as BDTheme;
   return {
-    width: bdTheme.primaryCarouselWidth,
-    height: bdTheme.primaryCarouselHeight,
-
     ".MuiButtonBase-root": {
       width: "30px",
       height: "30px",
