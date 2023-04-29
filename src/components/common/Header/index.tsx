@@ -4,7 +4,7 @@ import { Box } from "@mui/material";
 
 import { HeaderComponentStyle } from "./index.style";
 
-import { CarouselComponent } from "components/common";
+import { CounterComponent, RatingComponent } from "components/common";
 
 export const HeaderComponent: React.FC = () => {
   return (
@@ -12,7 +12,19 @@ export const HeaderComponent: React.FC = () => {
       <Box className="logo-container">
         <img className="logo" src="/image/logo.png" alt="" />
       </Box>
-      <CarouselComponent />
+      <Box className="controlbar-container">
+        <Box className="controlbar">
+          <Box className="rating">
+            <RatingComponent />
+          </Box>
+          <Box className="adult-counter">
+            <CounterComponent title="Adult" />
+          </Box>
+          <Box className="children-counter">
+            <CounterComponent title="Children" />
+          </Box>
+        </Box>
+      </Box>
     </HeaderComponentStyle>
   );
 };
