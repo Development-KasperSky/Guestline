@@ -26,6 +26,8 @@ const imageURLs: ImageURLs = {
 const logoSize: LogoSize = {
   primaryWidth: "10%",
   primaryHeight: "",
+  primaryCarouselWidth: "12.5%",
+  primaryCarouselHeight: "",
 };
 
 export const defaultTheme = createTheme({
