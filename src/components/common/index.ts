@@ -3,3 +3,4 @@ export * from "./Counter";
 export * from "./Header";
 export * from "./HotelShow";
 export * from "./Rating";
+export * from "./RoomShow";

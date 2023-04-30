@@ -38,12 +38,17 @@ export const HotelShowComponentStyle = styled(
         ".rating": {
           flex: "30%",
           padding: "20px",
+          textAlign: "left",
         },
       },
 
       ".content": {
         display: "flex",
         flexDirection: "column",
+      },
+
+      ".css-1b3h77j": {
+        justifyContent: "end",
       },
     },
   };
