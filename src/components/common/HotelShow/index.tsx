@@ -1,17 +1,14 @@
 import React, { useState } from "react";
 
-import {
-  Box,
-  Card,
-  CardContent,
-  CardHeader,
-  Button,
-  Typography,
-} from "@mui/material";
+import { Box, Card, Typography } from "@mui/material";
 
 import { HotelShowComponentStyle } from "./index.style";
 
-import { CarouselComponent, RatingComponent } from "components/common";
+import {
+  CarouselComponent,
+  RatingComponent,
+  RoomShowComponent,
+} from "components/common";
 
 type HotelShowComponentProps = {};
 
@@ -32,7 +29,11 @@ export const HotelShowComponent: React.FC = ({}) => {
             <RatingComponent />
           </Box>
         </Box>
-        <Box className="content"></Box>
+        <Box className="content">
+          <RoomShowComponent />
+          <RoomShowComponent />
+          <RoomShowComponent />
+        </Box>
       </Card>
     </HotelShowComponentStyle>
   );
