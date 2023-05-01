@@ -13,7 +13,7 @@ import { DashboardPage } from "pages";
 
 export const App: React.FC = () => {
   const theme: Theme = defaultTheme;
-  
+
   return (
     <ThemeProvider theme={theme}>
       <Routes>
@@ -22,5 +22,3 @@ export const App: React.FC = () => {
     </ThemeProvider>
   );
 };
-
-export default App;
